@@ -6,3 +6,4 @@ Security:
 - .env is ignored (never committed)
 - data/materials and data/index are ignored (never committed)
 
+# tg-rag-assistant
