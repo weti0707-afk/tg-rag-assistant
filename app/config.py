@@ -36,7 +36,7 @@ class Settings(BaseSettings):
     rag_top_k: int = Field(default=6, alias="RAG_TOP_K")
     rag_chunk_size: int = Field(default=800, alias="RAG_CHUNK_SIZE")
     rag_chunk_overlap: int = Field(default=120, alias="RAG_CHUNK_OVERLAP")
-    embedding_model: str = Field(default="intfloat/multilingual-e5-small", alias="EMBEDDING_MODEL")
+    embedding_model: str = Field(default="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2", alias="EMBEDDING_MODEL")
 
 
 @lru_cache(maxsize=1)
