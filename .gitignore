@@ -5,3 +5,9 @@ __pycache__/
 data/bot.sqlite3
 data/index/
 data/materials/
+
+# local backups / junk
+*.bak.*
+*.bad.*
+*.broken.*
+*.log
